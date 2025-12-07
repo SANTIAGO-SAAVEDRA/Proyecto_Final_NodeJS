@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 const corsConfig = {
 
-    origin: ['http://localhost:3000', 'https://midominio.com'],
+    origin: ['http://localhost:3000', 'https://proyectofinalnodejss.vercel.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     exposedHeaders: ['Content-Length'],
